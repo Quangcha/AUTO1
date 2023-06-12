@@ -5,7 +5,7 @@ obj= {
 	"todo": "result",
 	"ret": "ok",
 	"devices": [{
-		"did": "black_list_3f05e249-b5ff-48ee-9e9d-5069f0d37bd2",
+		"did": "3f05e249-b5ff-48ee-9e9d-5069f0d37bd2",
 		"name": "E04L13731C09HHR30286",
 		"class": "bs40nz",
 		"resource": "gigy",
