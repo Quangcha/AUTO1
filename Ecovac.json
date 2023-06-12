@@ -1,7 +1,7 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-  "code": 0,
+  	"code": 0,
 	"todo": "result",
 	"ret": "ok",
 	"devices": [{
