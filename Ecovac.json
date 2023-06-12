@@ -1,0 +1,47 @@
+var obj = JSON.parse($response.body);
+
+obj= {
+  "code": 0,
+	"todo": "result",
+	"ret": "ok",
+	"devices": [{
+		"did": "black_list_3f05e249-b5ff-48ee-9e9d-5069f0d37bd2",
+		"name": "E04L13731C09HHR30286",
+		"class": "bs40nz",
+		"resource": "gigy",
+		"nick": "Trangossin",
+		"company": "eco-ng",
+		"bindTs": 1681575734344,
+		"service": {
+			"jmq": "jmq-ngiot-cn.dc.cn.ecouser.net",
+			"mqs": "api-ngiot.dc-cn.cn.ecouser.net"
+		},
+		"homeId": "63a01527eb11e21ae28d354b",
+		"homeSort": 1,
+		"shareable": false,
+		"sharedDevice": false,
+		"deviceName": "DEEBOT T8 AIVI",
+		"icon": "https://portal.ecouser.net/api/pim/file/get/604efc0df49feb0008d0c93e",
+		"ota": true,
+		"UILogicId": "DX_AI",
+		"materialNo": "110-1913-0002",
+		"pid": "5de0d6658c8297000142b807",
+		"product_category": "DEEBOT",
+		"model": "DXAI",
+		"updateInfo": {
+			"needUpdate": false,
+			"changeLog": ""
+		},
+		"scode": {
+			"tmallstand": false,
+			"video": true,
+			"battery": true,
+			"clean": true,
+			"charge": true,
+			"chargestate": true
+		},
+		"status": 1,
+		"offmap": true
+	}]
+};
+$done({body: JSON.stringify(obj)});
